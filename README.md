@@ -27,7 +27,7 @@ The main objectives of this project are to:
 
 ---
 
-## 🤖 What are Text Embeddings?
+## What are Text Embeddings?
 
 A **text embedding** is a numerical representation of text that captures its semantic information.
 
@@ -61,7 +61,7 @@ Embedding-based retrieval can identify this semantic relationship.
 
 ---
 
-## 🔢 Gemini Embedding Model
+## Gemini Embedding Model
 
 The project uses the Gemini embedding model:
 
@@ -80,7 +80,7 @@ The model generates vector representations that can be used for tasks such as:
 
 ---
 
-## 🛠️ Key Concepts Covered
+## Key Concepts Covered
 
 ### 1. Task-Specific Embeddings
 
@@ -172,7 +172,7 @@ This approach allows retrieval based on **semantic similarity rather than exact 
 
 ---
 
-## 📐 Cosine Similarity
+## Cosine Similarity
 
 The project uses **cosine similarity** to measure the similarity between embedding vectors.
 
@@ -192,7 +192,7 @@ Cosine similarity is commonly used in embedding-based retrieval systems.
 
 ---
 
-## 📊 Embedding Dimensions
+## Embedding Dimensions
 
 The project works with the embedding representation produced by the Gemini embedding model and considers the dimensionality of the resulting vectors for storage and retrieval.
 
@@ -200,7 +200,7 @@ Higher-dimensional vectors can capture rich semantic information but may also re
 
 ---
 
-## ⚡ Batch Processing
+## Batch Processing
 
 The project also explores **batch processing**, where multiple documents can be embedded together rather than processing every document independently.
 
@@ -220,7 +220,7 @@ Batch processing can make large-scale embedding workflows more practical and eff
 
 ---
 
-## 🔐 API Key Security
+## API Key Security
 
 API credentials should never be directly hard-coded into the source code.
 
@@ -236,7 +236,7 @@ The `.env` file should be added to `.gitignore to prevent accidentally exposing 
 
 ---
 
-## 🔄 End-to-End Workflow
+## End-to-End Workflow
 
 ```text
 1. Prepare Knowledge Base
@@ -258,7 +258,7 @@ This retrieval process can later be connected to an LLM to build a complete **Re
 
 ---
 
-## 🧩 Embeddings in RAG
+## Embeddings in RAG
 
 Embeddings are a fundamental component of RAG systems.
 
@@ -290,7 +290,7 @@ This project primarily focuses on the **embedding and retrieval stage** of this 
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 - **Python**
 - **Google Gemini Embeddings**
@@ -299,10 +299,11 @@ This project primarily focuses on the **embedding and retrieval stage** of this 
 - **SciPy**
 - **python-dotenv**
 - **Jupyter Notebook / Google Colab**
+- 
 
 ---
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 Through this project, the following concepts can be understood:
 
@@ -320,7 +321,7 @@ Through this project, the following concepts can be understood:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 This project can be extended into a complete retrieval and RAG system by adding:
 
@@ -339,7 +340,7 @@ This project can be extended into a complete retrieval and RAG system by adding:
 
 ---
 
-## 🌐 Applications
+## Applications
 
 Gemini embeddings can be used in applications such as:
 
@@ -355,7 +356,7 @@ Gemini embeddings can be used in applications such as:
 
 ---
 
-## 📝 Conclusion
+## Conclusion
 
 This project provides a practical introduction to **Google Gemini text embeddings and semantic retrieval**.
 
